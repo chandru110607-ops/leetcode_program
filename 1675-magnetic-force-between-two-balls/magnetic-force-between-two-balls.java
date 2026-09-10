@@ -6,7 +6,7 @@ class Solution {
         
         int n = position.length;
         int low = 1; 
-        int high = position[n - 1] - position[0];
+        int high = position[n - 1];
         int bestForce = 0;
         
         while (low <= high) {
