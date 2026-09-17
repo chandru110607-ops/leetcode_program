@@ -17,6 +17,7 @@ class Solution {
         for (int i = 0; i < w1.length(); i++) {
             letters[w1.charAt(i) - 'a'] = true;
         }
+
         for (int i = 0; i < w2.length(); i++) {
             if (letters[w2.charAt(i) - 'a']) {
                 return true;
