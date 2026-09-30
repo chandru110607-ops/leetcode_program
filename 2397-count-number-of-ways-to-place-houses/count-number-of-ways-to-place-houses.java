@@ -2,7 +2,7 @@ class Solution {
     public int countHousePlacements(int n) {
         long mod = 1_000_000_007;
         
-        long prev2 = 1; 
+        long prev2 = 1;
         long prev1 = 2;
         
         if (n == 1) {
